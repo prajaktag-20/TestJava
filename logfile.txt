@@ -1,6 +1,4 @@
 .gitignore
-__pycache__/fetch_wiki_table.cpython-312.pyc
 assignment.py
-finale/ligure/rollercoaster.cpp
 leogang/hangman.cpp
 logfile.txt
