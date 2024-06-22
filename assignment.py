@@ -11,7 +11,7 @@ wiki_url = 'https://github.com/prajaktag-20/TestJava/wiki/Home'
 vacation_date = []
 
 changed_files_list=sys.argv[1:]
-changed_files=changed_files_list.split('\n')
+changed_files=changed_files_list[0].split('\n')
 
 #changed_files=["leogang/hangman.cpp","finale/ligure/rollercoaster.cpp"]
 

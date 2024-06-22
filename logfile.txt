@@ -5,3 +5,17 @@ Files changed in the push:
 finale/ligure/madonna.cpp
 finale/ligure/rollercoaster.cpp
 logfile.txt
+Files changed in the push:
+assignment.py
+fetch_wiki_table.py
+finale/ligure/madonna.cpp
+finale/ligure/rollercoaster.cpp
+logfile.txt
+test.py
+Files changed in the push:
+assignment.py
+fetch_wiki_table.py
+finale/ligure/madonna.cpp
+finale/ligure/rollercoaster.cpp
+logfile.txt
+test.py
