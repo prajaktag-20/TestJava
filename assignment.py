@@ -13,6 +13,13 @@ vacation_date = []
 changed_files_list=sys.argv[1:]
 changed_files=changed_files_list[0].split('\n')
 
+changed_files.remove('assignment.py')
+changed_files.remove('logfile.txt')
+changed_files.remove('fetch_wiki_table.py')
+
+
+
+
 #changed_files=["leogang/hangman.cpp","finale/ligure/rollercoaster.cpp"]
 
 
@@ -61,7 +68,7 @@ def main():
             
             for usr in user_list:
                 result = Isonvacation(usr.strip())
-                print(usr + '-' + str(result))
+               ## print(usr + '-' + str(result))
                 if result:
                     user_list.remove(usr)
             
