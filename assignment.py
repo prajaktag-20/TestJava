@@ -13,9 +13,12 @@ vacation_date = []
 changed_files_list=sys.argv[1:]
 changed_files=changed_files_list[0].split('\n')
 
-changed_files.remove('assignment.py')
-changed_files.remove('logfile.txt')
-changed_files.remove('fetch_wiki_table.py')
+if 'assignment.py' in changed_files:
+    changed_files.remove('assignment.py')
+if 'logfile.txt' in changed_files:
+    changed_files.remove('logfile.txt')
+if 'fetch_wiki_table.py' in changed_files:
+    changed_files.remove('fetch_wiki_table.py')
 
 
 
