@@ -1,4 +1,1 @@
-.gitignore
-assignment.py
-leogang/hangman.cpp
 logfile.txt
